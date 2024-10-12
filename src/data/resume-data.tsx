@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Catonsville, Maryland, USA",
   locationLink: "https://www.google.com/maps/place/Catonsville,+MD/",
   about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
+    "Experienced developer currently pursuing a Master's in Data Science, passionate about building data-driven solutions and advancing AI technologies.",
   summary:
     "Experienced professional pursuing a Master’s in Data Science with expertise in PL SQL development. Passionate about deep learning, with hands-on project experience in deep learning algorithms. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI technology.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97048188?v=4&size=64",
@@ -159,33 +159,39 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Evercast",
+      title: "Object Detection with YOLOv8",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "YOLOv8",
+        "PyTorch",
+        "MPS (GPU acceleration)",
+        "OpenCV",
+        "NumPy",
+        "Real-time Object Detection",
+        "Video Processing"
       ],
+
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+        "real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing.",
+      logo: YoloLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "github.com",
+        href: "https://github.com/SVashishta1/Object_Detection_with_YOLOv8.git",
       },
     },
     {
-      title: "Consultly",
+      title: "Real-Time Streaming with PySpark",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "PySpark",
+        "Kafka",
+        "Zookeeper",
+        "MySQL",
+        "CoinCap API",
+        "Plotly",
+        "Spark Streaming",
+        "Real-time Data Processing"
       ],
-      description: "A platform to build and grow your online business",
+
+      description: "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly.",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
