@@ -179,7 +179,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "TelecomChurnPrediction",
+      title: "Telecom Churn Prediction",
       techStack: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Random Forest", "Decision Tree", "PCA"],
       description:
         "Predicted customer churn with high accuracy using machine learning techniques",
