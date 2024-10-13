@@ -65,13 +65,13 @@ export const RESUME_DATA = {
     {
       company: "Tata Consultancy Services",
       link: "https://www.tcs.com",
-      badges: ["Inperson"],
+      badges: ["Hybrid"],
       title: "SQL Developer",
       logo: ConsultlyLogo,
       start: "2021",
       end: 2023,
       description:
-        "Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA.",
+        "Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA"
     }
     // ,
     // {
@@ -96,27 +96,7 @@ export const RESUME_DATA = {
     //   description:
     //     "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     // },
-    // {
-    //   company: "Jojo Mobile",
-    //   link: "https://bsgroup.eu/",
-    //   badges: [],
-    //   title: "Android Developer → Lead Android Developer",
-    //   logo: JojoMobileLogo,
-    //   start: "2012",
-    //   end: "2015",
-    //   description:
-    //     "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
-    // },
-    // {
-    //   company: "Nokia Siemens Networks",
-    //   link: "https://www.nokia.com",
-    //   badges: [],
-    //   title: "C/C++ Developer",
-    //   logo: NSNLogo,
-    //   start: "2010",
-    //   end: "2012",
-    //   description: "Developed and tested software for LTE base stations",
-    // },
+ 
   ],
     skills: [
     "Python",
