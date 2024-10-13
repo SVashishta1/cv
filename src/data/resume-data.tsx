@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       title: "SQL Developer",
       logo: ConsultlyLogo,
       start: "2021",
-      end: 2023,
+      end: "2023",
       description:
         "Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA",
     }
