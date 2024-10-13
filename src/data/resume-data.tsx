@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "Experienced professional pursuing a Master’s in Data Science with expertise in PL SQL development. Passionate about deep learning, with hands-on project experience in deep learning algorithms. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI technology.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97048188?v=4&size=64",
-  // personalWebsiteUrl: "",
+  personalWebsiteUrl: "https://www.example.com",
   contact: {
     email: "sarabu.vs@gmail.com",
     tel: "+19296798798",
