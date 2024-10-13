@@ -172,7 +172,7 @@ export const RESUME_DATA = {
 
       description:
         "real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing",
-      logo: YoloLogo,
+      // logo: YoloLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Object_Detection_with_YOLOv8.git",
@@ -192,7 +192,7 @@ export const RESUME_DATA = {
       ],
 
       description: "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly",
-      logo: PySparkLogo,
+      // logo: PySparkLogo,
       link: {
         label: "github.com"",
         href: "https://github.com/SVashishta1/Real_Time_Streaming_PySpark.git",
@@ -203,7 +203,7 @@ export const RESUME_DATA = {
       techStack: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Random Forest", "Decision Tree", "PCA"],
       description:
         "Predicted customer churn with high accuracy using machine learning techniques",
-      logo: DataAnalysisLogo,
+      // logo: DataAnalysisLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Telecom_Churn_Prediction.git",
@@ -214,7 +214,7 @@ export const RESUME_DATA = {
       techStack: ["TensorFlow", "Keras", "MNIST Dataset"],
       description:
         "A digit recognition model using TensorFlow’s Keras API on the MNIST dataset",
-      logo: DigitRecognitionLogo,
+      // logo: DigitRecognitionLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/MNIST_Digit_Recognition.git",
@@ -225,7 +225,7 @@ export const RESUME_DATA = {
       techStack: ["Flask", "Selenium WebDriver", "BeautifulSoup", "MySQL", "Plotly", "Linear Regression"],
       description:
         "A Flask web app with web scraping, data visualization, and machine learning for real-time price tracking",
-      logo: PriceTrackerLogo,
+      // logo: PriceTrackerLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Price_Tracker.git",
