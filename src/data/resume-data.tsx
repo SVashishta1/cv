@@ -171,7 +171,7 @@ export const RESUME_DATA = {
       ],
 
       description:
-        "real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing.",
+        "real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing",
       logo: YoloLogo,
       link: {
         label: "github.com",
@@ -191,119 +191,119 @@ export const RESUME_DATA = {
         "Real-time Data Processing"
       ],
 
-      description: "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly.",
-      logo: ConsultlyLogo,
+      description: "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly",
+      logo: PySparkLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com"",
+        href: "https://github.com/SVashishta1/Real_Time_Streaming_PySpark.git",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "TelecomChurnPrediction",
+      techStack: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Random Forest", "Decision Tree", "PCA"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Predicted customer churn with high accuracy using machine learning techniques",
+      logo: DataAnalysisLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/SVashishta1/Telecom_Churn_Prediction.git",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "MNIST Digit Recognition",
+      techStack: ["TensorFlow", "Keras", "MNIST Dataset"],
       description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
+        "A digit recognition model using TensorFlow’s Keras API on the MNIST dataset",
+      logo: DigitRecognitionLogo,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com",
+        href: "https://github.com/SVashishta1/MNIST_Digit_Recognition.git",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Price Tracker",
+      techStack: ["Flask", "Selenium WebDriver", "BeautifulSoup", "MySQL", "Plotly", "Linear Regression"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "A Flask web app with web scraping, data visualization, and machine learning for real-time price tracking",
+      logo: PriceTrackerLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "github.com",
+        href: "https://github.com/SVashishta1/Price_Tracker.git",
       },
     },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    // {
+    //   title: "Barepapers",
+    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
+    //   description:
+    //     "Generates beautiful wallpapers using random shapes and gradients",
+    //   logo: BarepapersLogo,
+    //   link: {
+    //     label: "barepapers.com",
+    //     href: "https://barepapers.com/",
+    //   },
+    // },
+    // {
+    //   title: "Year progress",
+    //   techStack: ["Side Project", "TypeScript", "Next.js"],
+    //   description: "Tracks current year progress and displays a countdown",
+    //   logo: YearProgressLogo,
+    //   link: {
+    //     label: "getyearprogress.com",
+    //     href: "https://getyearprogress.com/",
+    //   },
+    // },
+    // {
+    //   title: "Mobile Vikings",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application for leading virtual mobile operator in Poland",
+    //   logo: MobileVikingsLogo,
+    //   link: {
+    //     label: "mobilevikings.pl",
+    //     href: "https://mobilevikings.pl/",
+    //   },
+    // },
+    // {
+    //   title: "Howdy",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description: "Howdy is a place for joining communities you care about",
+    //   logo: Howdy,
+    //   link: {
+    //     label: "play.google.com",
+    //     href: "https://howdy.co/",
+    //   },
+    // },
+    // {
+    //   title: "Tastycloud",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application for managing and displaying restaurant menus in kiosk mode",
+    //   logo: TastyCloudLogo,
+    //   link: {
+    //     label: "tastycloud.fr",
+    //     href: "https://www.tastycloud.fr/",
+    //   },
+    // },
+    // {
+    //   title: "Ambit",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application that helps with sharing your contact details",
+    //   logo: AmbitLogo,
+    // },
+    // {
+    //   title: "Bim",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application that helps with booking a table in a restaurants",
+    //   logo: BimLogo,
+    // },
+    // {
+    //   title: "Canal Digital GO",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Video streaming mobile application for Canal Digital subscribers",
+    //   logo: CDGOLogo,
+    // },
   ],
 } as const;
