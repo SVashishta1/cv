@@ -71,7 +71,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: 2023,
       description:
-        "Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA"
+        "Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA",
     }
     // ,
     // {
