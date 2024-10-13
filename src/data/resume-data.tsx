@@ -64,7 +64,7 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Tata Consultancy Services",
-      // link: "https://film.io",
+      link: "https://www.tcs.com",
       badges: ["Inperson"],
       title: "SQL Developer",
       logo: ConsultlyLogo,
