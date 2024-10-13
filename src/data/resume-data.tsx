@@ -194,7 +194,7 @@ export const RESUME_DATA = {
       description: "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly",
       // logo: PySparkLogo,
       link: {
-        label: "github.com"",
+        label: "github.com",
         href: "https://github.com/SVashishta1/Real_Time_Streaming_PySpark.git",
       },
     },
