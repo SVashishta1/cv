@@ -77,7 +77,7 @@ work: [
             - Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
         `,
     }
-]
+
     // , Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA
     // {
     //   company: "Parabol",
