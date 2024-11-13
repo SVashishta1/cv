@@ -78,7 +78,7 @@ work: [
         `,
     }
 ]
-    // ,
+    // , Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA
     // {
     //   company: "Parabol",
     //   link: "https://parabol.co",
