@@ -43,9 +43,8 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://linkedin.com/in/s-vashishta-ln/",
         icon: LinkedInIcon,
-      }
-      // ,
-      
+      },
+      // Uncomment if X profile is needed
       // {
       //   name: "X",
       //   url: "https://x.com/BartoszJarocki",
@@ -61,25 +60,23 @@ export const RESUME_DATA = {
       end: "2025",
     },
   ],
-work: [
+  work: [
     {
-        company: "Tata Consultancy Services",
-        link: "https://www.tcs.com",
-        badges: ["Hybrid"],
-        title: "SQL Developer",
-        logo: ConsultlyLogo,
-        start: "2021",
-        end: "2023",
-        description: `
-            - Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.
-            - Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.
-            - Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
-            - Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
-        `,
-    }, // Added comma here
-],
-
-    // , Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA
+      company: "Tata Consultancy Services",
+      link: "https://www.tcs.com",
+      badges: ["Hybrid"],
+      title: "SQL Developer",
+      logo: ConsultlyLogo,
+      start: "2021",
+      end: "2023",
+      description: `
+        - Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.
+        - Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.
+        - Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
+        - Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
+      `,
+    },
+    // Uncomment other work entries if needed
     // {
     //   company: "Parabol",
     //   link: "https://parabol.co",
@@ -91,20 +88,8 @@ work: [
     //   description:
     //     "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
     // },
-    // {
-    //   company: "Clevertech",
-    //   link: "https://clevertech.biz",
-    //   badges: ["Remote"],
-    //   title: "Lead Android Developer → Full Stack Developer",
-    //   logo: ClevertechLogo,
-    //   start: "2015",
-    //   end: "2021",
-    //   description:
-    //     "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    // },
- 
   ],
-    skills: [
+  skills: [
     "Python",
     "SQL",
     "PyTorch",
@@ -117,28 +102,22 @@ work: [
     "Git",
     "PySpark",
     "Kafka",
-    "JIRA"
+    "JIRA",
   ],
-  mlArchitectures: [
-    "CNN",
-    "YOLO"
-  ],
-
+  mlArchitectures: ["CNN", "YOLO"],
   projects: [
     {
       title: "Fine-tuning YOLOv8 Model",
       techStack: [
-      "YOLOv8",
-      "InceptionResNetV2",
-      "PyTorch",
-      "TensorFlow",
-      "Image Classification",
-      "Wildlife Dataset",
-    ],
-
+        "YOLOv8",
+        "InceptionResNetV2",
+        "PyTorch",
+        "TensorFlow",
+        "Image Classification",
+        "Wildlife Dataset",
+      ],
       description:
         "Fine-tuned YOLOv8 with wildlife images for species recognition",
-      // logo: ParabolLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Custom_YOLO_model.git",
@@ -153,12 +132,10 @@ work: [
         "OpenCV",
         "NumPy",
         "Real-time Object Detection",
-        "Video Processing"
+        "Video Processing",
       ],
-
       description:
-        "real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing",
-      // logo: YoloLogo,
+        "Real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing",
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Object_Detection_with_YOLOv8.git",
@@ -174,11 +151,10 @@ work: [
         "CoinCap API",
         "Plotly",
         "Spark Streaming",
-        "Real-time Data Processing"
+        "Real-time Data Processing",
       ],
-
-      description: "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly",
-      // logo: PySparkLogo,
+      description:
+        "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly",
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Real_Time_Streaming_PySpark.git",
@@ -186,10 +162,17 @@ work: [
     },
     {
       title: "Telecom Churn Prediction",
-      techStack: ["Python", "Pandas", "Scikit-learn", "Matplotlib", "Random Forest", "Decision Tree", "PCA"],
+      techStack: [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib",
+        "Random Forest",
+        "Decision Tree",
+        "PCA",
+      ],
       description:
         "Predicted customer churn with high accuracy using machine learning techniques",
-      // logo: DataAnalysisLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Telecom_Churn_Prediction.git",
@@ -200,7 +183,6 @@ work: [
       techStack: ["TensorFlow", "Keras", "MNIST Dataset"],
       description:
         "A digit recognition model using TensorFlow’s Keras API on the MNIST dataset",
-      // logo: DigitRecognitionLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/MNIST_Digit_Recognition.git",
@@ -208,88 +190,20 @@ work: [
     },
     {
       title: "Price Tracker",
-      techStack: ["Flask", "Selenium WebDriver", "BeautifulSoup", "MySQL", "Plotly", "Linear Regression"],
+      techStack: [
+        "Flask",
+        "Selenium WebDriver",
+        "BeautifulSoup",
+        "MySQL",
+        "Plotly",
+        "Linear Regression",
+      ],
       description:
         "A Flask web app with web scraping, data visualization, and machine learning for real-time price tracking",
-      // logo: PriceTrackerLogo,
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Price_Tracker.git",
       },
     },
-    // {
-    //   title: "Barepapers",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Generates beautiful wallpapers using random shapes and gradients",
-    //   logo: BarepapersLogo,
-    //   link: {
-    //     label: "barepapers.com",
-    //     href: "https://barepapers.com/",
-    //   },
-    // },
-    // {
-    //   title: "Year progress",
-    //   techStack: ["Side Project", "TypeScript", "Next.js"],
-    //   description: "Tracks current year progress and displays a countdown",
-    //   logo: YearProgressLogo,
-    //   link: {
-    //     label: "getyearprogress.com",
-    //     href: "https://getyearprogress.com/",
-    //   },
-    // },
-    // {
-    //   title: "Mobile Vikings",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for leading virtual mobile operator in Poland",
-    //   logo: MobileVikingsLogo,
-    //   link: {
-    //     label: "mobilevikings.pl",
-    //     href: "https://mobilevikings.pl/",
-    //   },
-    // },
-    // {
-    //   title: "Howdy",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description: "Howdy is a place for joining communities you care about",
-    //   logo: Howdy,
-    //   link: {
-    //     label: "play.google.com",
-    //     href: "https://howdy.co/",
-    //   },
-    // },
-    // {
-    //   title: "Tastycloud",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for managing and displaying restaurant menus in kiosk mode",
-    //   logo: TastyCloudLogo,
-    //   link: {
-    //     label: "tastycloud.fr",
-    //     href: "https://www.tastycloud.fr/",
-    //   },
-    // },
-    // {
-    //   title: "Ambit",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with sharing your contact details",
-    //   logo: AmbitLogo,
-    // },
-    // {
-    //   title: "Bim",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with booking a table in a restaurants",
-    //   logo: BimLogo,
-    // },
-    // {
-    //   title: "Canal Digital GO",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Video streaming mobile application for Canal Digital subscribers",
-    //   logo: CDGOLogo,
-    // },
   ],
 } as const;
