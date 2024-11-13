@@ -76,7 +76,8 @@ work: [
             - Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
             - Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
         `,
-    }
+    }, // Added comma here
+],
 
     // , Developed PL/SQL packages and procedures for British Telecom (BT), optimizing data processing for millions of records. Technologies: PL/SQL, Python, JIRA
     // {
