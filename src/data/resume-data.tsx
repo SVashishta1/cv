@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Experienced developer currently pursuing a Master's in Data Science, passionate about building data-driven solutions and advancing AI technologies.",
   summary:
-    "Experienced professional pursuing a Master’s in Data Science with expertise in PL SQL development. Passionate about deep learning, with hands-on project experience in deep learning algorithms. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI technology.",
+    "Experienced professional pursuing a Master’s in Data Science with expertise in PL SQL development. Passionate about deep learning, with hands-on project experience in advanced AI systems and real-time data processing. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI and machine learning technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97048188?v=4&size=64",
   personalWebsiteUrl: "https://www.example.com",
   contact: {
@@ -44,17 +44,11 @@ export const RESUME_DATA = {
         url: "https://linkedin.com/in/s-vashishta-ln/",
         icon: LinkedInIcon,
       },
-      // Uncomment if X profile is needed
-      // {
-      //   name: "X",
-      //   url: "https://x.com/BartoszJarocki",
-      //   icon: XIcon,
-      // },
     ],
   },
   education: [
     {
-      school: "University of Baltimore County",
+      school: "University of Maryland Baltimore County",
       degree: "Master's in Data Science",
       start: "2023",
       end: "2025",
@@ -74,33 +68,18 @@ export const RESUME_DATA = {
         Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.
         Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
         Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
-      `
-//       description: [
-//   "Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.",
-//   "Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.",
-//   "Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.",
-//   "Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing."
-// ],
+      `,
     },
-    // Uncomment other work entries if needed
-    // {
-    //   company: "Parabol",
-    //   link: "https://parabol.co",
-    //   badges: ["Remote"],
-    //   title: "Senior Full Stack Developer",
-    //   logo: ParabolLogo,
-    //   start: "2021",
-    //   end: "2024",
-    //   description:
-    //     "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    // },
   ],
   skills: [
     "Python",
     "SQL",
     "PyTorch",
     "TensorFlow",
-    "Sklearn",
+    "Hugging Face",
+    "Gradio",
+    "LangChain",
+    "Scikit-learn",
     "NLTK",
     "Pandas",
     "NumPy",
@@ -113,6 +92,23 @@ export const RESUME_DATA = {
   mlArchitectures: ["CNN", "YOLO"],
   projects: [
     {
+      title: "LLM Chatbot for Database Querying",
+      techStack: [
+        "Gradio",
+        "LangChain",
+        "Hugging Face",
+        "Groq API",
+        "SQLite",
+        "Llama3-8b",
+      ],
+      description:
+        "Developed and deployed an AI chatbot using Hugging Face Spaces, Gradio, and LangChain for real-time SQL query generation and natural language responses to CSV data queries.",
+      link: {
+        label: "github.com",
+        href: "https://huggingface.co/spaces/Vashishta-S-2141/LLM_Database_Chatbot",
+      },
+    },
+    {
       title: "Fine-tuning YOLOv8 Model",
       techStack: [
         "YOLOv8",
@@ -123,7 +119,7 @@ export const RESUME_DATA = {
         "Wildlife Dataset",
       ],
       description:
-        "Fine-tuned YOLOv8 with wildlife images for species recognition",
+        "Fine-tuned YOLOv8 with wildlife images for species recognition.",
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Custom_YOLO_model.git",
@@ -141,7 +137,7 @@ export const RESUME_DATA = {
         "Video Processing",
       ],
       description:
-        "Real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing",
+        "Real-time object detection using YOLOv8 with PyTorch, OpenCV, and GPU acceleration for efficient video processing.",
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Object_Detection_with_YOLOv8.git",
@@ -160,7 +156,7 @@ export const RESUME_DATA = {
         "Real-time Data Processing",
       ],
       description:
-        "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly",
+        "A real-time cryptocurrency streaming app with PySpark, Kafka, and MySQL, visualizing live trends using Plotly.",
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Real_Time_Streaming_PySpark.git",
@@ -178,37 +174,10 @@ export const RESUME_DATA = {
         "PCA",
       ],
       description:
-        "Predicted customer churn with high accuracy using machine learning techniques",
+        "Predicted customer churn with high accuracy using machine learning techniques.",
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Telecom_Churn_Prediction.git",
-      },
-    },
-    {
-      title: "MNIST Digit Recognition",
-      techStack: ["TensorFlow", "Keras", "MNIST Dataset"],
-      description:
-        "A digit recognition model using TensorFlow’s Keras API on the MNIST dataset",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SVashishta1/MNIST_Digit_Recognition.git",
-      },
-    },
-    {
-      title: "Price Tracker",
-      techStack: [
-        "Flask",
-        "Selenium WebDriver",
-        "BeautifulSoup",
-        "MySQL",
-        "Plotly",
-        "Linear Regression",
-      ],
-      description:
-        "A Flask web app with web scraping, data visualization, and machine learning for real-time price tracking",
-      link: {
-        label: "github.com",
-        href: "https://github.com/SVashishta1/Price_Tracker.git",
       },
     },
   ],
