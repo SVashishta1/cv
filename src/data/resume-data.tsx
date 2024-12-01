@@ -1,24 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-
 export const RESUME_DATA = {
   name: "Vashishta Sharma Sarabu",
   initials: "VS",
@@ -160,6 +139,33 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/SVashishta1/Real_Time_Streaming_PySpark.git",
+      },
+    },
+    {
+      title: "MNIST Digit Recognition",
+      techStack: ["TensorFlow", "Keras", "MNIST Dataset"],
+      description:
+        "Developed a digit recognition model using TensorFlow’s Keras API on the MNIST dataset.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SVashishta1/MNIST_Digit_Recognition.git",
+      },
+    },
+    {
+      title: "Price Tracker",
+      techStack: [
+        "Flask",
+        "Selenium WebDriver",
+        "BeautifulSoup",
+        "MySQL",
+        "Plotly",
+        "Linear Regression",
+      ],
+      description:
+        "Developed a Flask web app with web scraping, data visualization, and machine learning for real-time price tracking.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/SVashishta1/Price_Tracker.git",
       },
     },
     {
