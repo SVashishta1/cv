@@ -69,18 +69,18 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       start: "2021",
       end: "2023",
-      // description: `
-      //   - Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.
-      //   - Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.
-      //   - Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
-      //   - Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
-      // `
-      description: [
-  "Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.",
-  "Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.",
-  "Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.",
-  "Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing."
-],
+      description: `
+        - Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.
+        - Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.
+        - Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
+        - Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
+      `
+//       description: [
+//   "Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.",
+//   "Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.",
+//   "Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.",
+//   "Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing."
+// ],
     },
     // Uncomment other work entries if needed
     // {
