@@ -65,10 +65,10 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description: `
-        Created PL/SQL packages, procedures, and triggers to assist British Telecom (BT), UK in managing millions of data records, optimizing processing efficiency.
-        Spearheaded defect resolution process improvements, implementing a structured feedback loop to reduce average resolution time by 50%.
-        Enhanced database performance through index creation, eliminating full table scans and optimizing query response time by 15%.
-        Collaborated cross-functionally to develop and deploy stored procedures and packages, providing critical insights into data processing.
+At Tata Consultancy Services, I created PL/SQL packages and triggers to optimize data management for British Telecom (BT), UK, 
+significantly improving processing efficiency and boosting query performance by 15%. 
+Leveraging Python, I automated data validation tasks, reducing manual effort by 30% while enhancing accuracy. 
+I utilized Python libraries to analyze data and generate actionable insights, supporting cross-functional teams in their decision-making processes. Additionally, I enhanced defect resolution workflows by implementing structured feedback loops and fostering proactive collaboration, which resulted in a 50% reduction in average resolution time.
       `,
     },
   ],
