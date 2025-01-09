@@ -106,6 +106,7 @@ business stakeholders.`,
     "PySpark",
     "Kafka",
     "JIRA",
+    "SpaCy"
   ],
   mlArchitectures: ["CNN", "YOLO"],
   projects: [
@@ -122,10 +123,30 @@ business stakeholders.`,
       description:
         "Developed and deployed an AI chatbot using Hugging Face Spaces, Gradio, and LangChain for real-time SQL query generation and natural language responses to CSV data queries.",
       link: {
-        label: "github.com",
+        label: "huggingface.com",
         href: "https://huggingface.co/spaces/Vashishta-S-2141/LLM_Database_Chatbot",
       },
     },
+    
+{
+  title: "Polyp Segmentation Using U-Net",
+  techStack: [
+    "TensorFlow",
+    "Keras",
+    "Python",
+    "Deep Learning",
+    "Medical Imaging",
+    "Computer Vision",
+  ],
+  description:
+    "Developed a segmentation model leveraging the U-Net architecture to detect polyps in medical images. Focused on improving medical diagnostics through accurate segmentation and advanced image processing techniques.",
+  link: {
+    label: "github.com",
+    href: "https://github.com/SVashishta1/Polyp_Segmentation_Using_U_Net.git
+", 
+  },
+}
+    ,
     {
       title: "Fine-tuning YOLOv8 Model",
       techStack: [
