@@ -128,25 +128,23 @@ business stakeholders.`,
       },
     },
     
-{
-  title: "Polyp Segmentation Using U-Net",
-  techStack: [
-    "TensorFlow",
-    "Keras",
-    "Python",
-    "Deep Learning",
-    "Medical Imaging",
-    "Computer Vision",
-  ],
-  description:
-    "Developed a segmentation model leveraging the U-Net architecture to detect polyps in medical images. Focused on improving medical diagnostics through accurate segmentation and advanced image processing techniques.",
-  link: {
-    label: "github.com",
-    href: "https://github.com/SVashishta1/Polyp_Segmentation_Using_U_Net.git
-", 
-  },
-}
-    ,
+      {
+        title: "Polyp Segmentation Using U-Net",
+        techStack: [
+          "TensorFlow",
+          "Keras",
+          "Python",
+          "Deep Learning",
+          "Medical Imaging",
+          "Computer Vision",
+        ],
+        description:
+          "Developed a segmentation model leveraging the U-Net architecture to detect polyps in medical images. Focused on improving medical diagnostics through accurate segmentation and advanced image processing techniques.",
+        link: {
+          label: "github.com",
+          href: "https://github.com/SVashishta1/Polyp_Segmentation_Using_U_Net.git", 
+        },
+      },
     {
       title: "Fine-tuning YOLOv8 Model",
       techStack: [
