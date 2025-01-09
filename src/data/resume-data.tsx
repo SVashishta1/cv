@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Experienced developer currently pursuing a Master's in Data Science, passionate about building data-driven solutions and advancing AI technologies.",
   summary:
-    "Experienced professional pursuing a Master’s in Data Science with expertise in PL SQL development. Passionate about deep learning, with hands-on project experience in advanced AI systems and real-time data processing. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI and machine learning technologies.",
+    "Experienced professional pursuing a Master’s in Data Science with expertise in PL/SQL, Python development. Passionate about deep learning, with hands-on project experience in advanced AI systems and real-time data processing. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI and machine learning technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97048188?v=4&size=64",
   personalWebsiteUrl: "https://www.example.com",
   contact: {
@@ -65,11 +65,28 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description: `
-At Tata Consultancy Services, I created PL/SQL packages and triggers to optimize data management for British Telecom (BT), UK, 
-significantly improving processing efficiency and boosting query performance by 15%. 
-Leveraging Python, I automated data validation tasks, reducing manual effort by 30% while enhancing accuracy. 
-I utilized Python libraries to analyze data and generate actionable insights, supporting cross-functional teams in their decision-making processes. Additionally, I enhanced defect resolution workflows by implementing structured feedback loops and fostering proactive collaboration, which resulted in a 50% reduction in average resolution time.
-      `,
+At Tata Consultancy Services, optimized database performance by developing and
+enhancing 50+ PL/SQL packages and triggers, improving query efficiency by 15% and 
+reducing processing time by 20%. Automated data validation processes using Python, 
+cutting manual effort by 30% and detecting 95% of inconsistencies.
+Designed and implemented scalable AWS solutions, including EC2 and API Gateway, 
+to manage a 40% increase in traffic while maintaining 99.9% uptime. 
+Processed and visualized over 1M records with Python, generating actionable insights to support cross-functional decision-making. `,
+    },
+    {
+      company: "Tata Consultancy Services",
+      link: "https://www.tcs.com",
+      badges: ["Hybrid"],
+      title: "Data Science Intern",
+      logo: ConsultlyLogo,
+      start: "2021",
+      end: "2021",
+      description: `
+As a Data Science Intern, contributed to developing PL/SQL packages and Python scripts, 
+enhancing workflows and improving efficiency by 20%. Established cloud-based solutions 
+using AWS EC2 and S3, ensuring 98% data accessibility. Prepared dashboards with Python 
+visualization libraries, analyzing 500K+ records and delivering actionable insights to 
+business stakeholders.`,
     },
   ],
   skills: [
