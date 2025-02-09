@@ -26,9 +26,9 @@ export const RESUME_DATA = {
   location: "Catonsville, Maryland, USA",
   locationLink: "https://www.google.com/maps/place/Catonsville,+MD/",
   about:
-    "Experienced developer currently pursuing a Master's in Data Science, passionate about building data-driven solutions and advancing AI technologies.",
+    "AI/ML Engineer with hands-on experience in deep learning, real-time data processing, and scalable AI solutions. Currently pursuing a Master’s in Data Science, passionate about building innovative AI systems and advancing machine learning technologies.",
   summary:
-    "Experienced professional pursuing a Master’s in Data Science with expertise in PL/SQL, Python development. Passionate about deep learning, with hands-on project experience in advanced AI systems and real-time data processing. Aspiring Deep Learning Engineer, dedicated to driving innovation in AI and machine learning technologies.",
+    "AI/ML Engineer and Data Science Master’s candidate with expertise in deep learning, AI chatbot development, and real-time data processing. Proficient in Python, SQL, PyTorch, TensorFlow, and cloud services like AWS. Experienced in building and deploying advanced AI systems, with a strong focus on model optimization and large-scale deployment. Aspiring to drive innovation in AI and machine learning technologies.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97048188?v=4&size=64",
   personalWebsiteUrl: "https://www.example.com",
   contact: {
@@ -65,13 +65,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description: `
-At Tata Consultancy Services, optimized database performance by developing and
-enhancing 50+ PL/SQL packages and triggers, improving query efficiency by 15% and 
-reducing processing time by 20%. Automated data validation processes using Python, 
-cutting manual effort by 30% and detecting 95% of inconsistencies.
-Designed and implemented scalable AWS solutions, including EC2 and API Gateway, 
-to manage a 40% increase in traffic while maintaining 99.9% uptime. 
-Processed and visualized over 1M records with Python, generating actionable insights to support cross-functional decision-making. `,
+Designed and fine-tuned deep learning models (CNNs, Transformers), reducing errors by 18% and improving inference speed by 30%. Built cloud-based AWS solutions with 99.9% uptime and automated ML retraining workflows for 40% better adaptability to new data. `,
     },
     {
       company: "Tata Consultancy Services",
@@ -82,32 +76,30 @@ Processed and visualized over 1M records with Python, generating actionable insi
       start: "2021",
       end: "2021",
       description: `
-As a Data Science Intern, contributed to developing PL/SQL packages and Python scripts, 
-enhancing workflows and improving efficiency by 20%. Established cloud-based solutions 
-using AWS EC2 and S3, ensuring 98% data accessibility. Prepared dashboards with Python 
-visualization libraries, analyzing 500K+ records and delivering actionable insights to 
-business stakeholders.`,
+Developed predictive models to boost process efficiency by 10%. Created Power BI dashboards for datasets with 500K+ records and deployed SQL-based feature engineering pipelines, cutting data preprocessing time by 35%.`,
     },
   ],
-  skills: [
-    "Python",
-    "SQL",
-    "PyTorch",
-    "TensorFlow",
-    "Hugging Face",
-    "Gradio",
-    "LangChain",
-    "Scikit-learn",
-    "NLTK",
-    "Pandas",
-    "NumPy",
-    "OpenCV",
-    "Git",
-    "PySpark",
-    "Kafka",
-    "JIRA",
-    "SpaCy"
-  ],
+skills: [
+  "Python",
+  "SQL",
+  "PyTorch",
+  "TensorFlow",
+  "Hugging Face",
+  "Gradio",
+  "LangChain",
+  "Transformers",
+  "Scikit-learn",
+  "NumPy",
+  "Pandas",
+  "OpenCV",
+  "PySpark",
+  "Kafka",
+  "AWS (EC2, Lambda, API Gateway)",
+  "RestAPI",
+  "Git",
+  "JIRA",
+  "SpaCy"
+],
   mlArchitectures: ["CNN", "YOLO"],
   projects: [
     {
